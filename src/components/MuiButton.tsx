@@ -3,18 +3,6 @@ import SendIcon from '@mui/icons-material/Send';
 
 export default function MuiButton() {
     
-    const doMath = (firstValue, secondValue) =>  {
-        if(!isNaN(firstValue) || !isNaN(secondValue)){
-            const result = Number(firstValue) + Number(secondValue);
-            const operationOutput = `The addition of ${firstValue} and ${secondValue} is equals to ${result}`;
-            console.log(operationOutput);
-        } else {
-            console.error("Invalid parameters");
-        }
-    }
-
-    doMath(5, 10);
-
     
     return (
         <Stack spacing={2} >
