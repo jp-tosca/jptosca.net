@@ -2,7 +2,7 @@
   "name": "material",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jp-tosca.github.io/material/",
+  "homepage": "https://jp-tosca.github.io/jptosca.net/",
   "type": "module",
   "scripts": {
     "dev": "vite",
